@@ -44,11 +44,11 @@ body {
 }
 
 .menu-btn {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     position: absolute;
-    right: -45px;
+    right: -50px;
     top: 17.5%;
 }
 
@@ -78,6 +78,7 @@ body {
     flex-direction: column;
     cursor: pointer;
     margin-bottom: 50px;
+    min-width: 300px;
 }
       
  
@@ -111,6 +112,7 @@ body {
     left: 3.3%;
     top: 27.95%;
     width: 43%;
+    min-width: 250px;
 }
 
 .content-active {
@@ -132,6 +134,7 @@ body {
     right: 3.3%;
     top: 27.95%;
     width: 43%;
+    min-width: 250px;
 }
 
 .text-center {
@@ -170,4 +173,59 @@ h2 {
     height: 250px;
     width: 500px;
     padding: 15px;
+}
+
+
+/*Адаптив*/
+
+@media (min-width: 1600px) {
+    .menu-btn {
+        width: 50px;
+        height: 50px;
+        right: -65px;
+    }
+}
+
+@media (max-width: 960px) {
+    .news {
+        width: 40%;
+    }
+}
+
+@media (max-width: 660px) {
+    .news {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    #glavimg {
+        height: 15vh;
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .news {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        width: 60%;
+    }
+
+    .title-text {
+        font-size: 30px;
+    }
+
+    .menu-btn {
+        width: 35px;
+        height: 35px;
+        right: -45px;
+    }
 }
