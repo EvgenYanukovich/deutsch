@@ -222,9 +222,18 @@
             font-size: 24px;
         }
         
+        @media all and (max-width: 1200px)
         .glavimg {
             background: no-repeat center/100% url(glav.jpg);
-            width: 100%;
+            width: 100vm;
+            height: 12.5vh;
+            border-radius: 35px;
+        }
+
+        @media all and (max-width: 420px)
+        .glavimg {
+            background: no-repeat center/100% url(glav.jpg);
+            width: 100vm;
             height: 12.5vh;
             border-radius: 20px;
         }
