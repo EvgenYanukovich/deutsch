@@ -81,27 +81,27 @@
             padding: 15px;
         }
         
-        #news1 .news-photo {
+        #sport-news .news-photo {
             background: no-repeat center/100% url(basketbol.jpg);
         }
         
-        #news2 .news-photo {
+        #horoda-news .news-photo {
             background: no-repeat center/100% url(munchen.jpg);
         }
       
-        #news3 .news-photo {
+        #school-news .news-photo {
             background: no-repeat center/100% url(school1.jpg);
         }
 
-        #news4 .news-photo {
+        #ludi-news .news-photo {
             background: no-repeat center/100% url(einschtein.jpg);
         }
 
-        #news5 .news-photo {
+        #traditii-news .news-photo {
             background: no-repeat center/100% url(pferdewallfahrt.jpg);
         }
         
-        #news6 .news-photo {
+        #fakt-news .news-photo {
             background: no-repeat center/100% url(fakt.jpg);
         }
         
