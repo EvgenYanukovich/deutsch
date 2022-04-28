@@ -5,18 +5,21 @@
     <meta charset="utf-8">
     <title>Deutsche Welt</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="images.css">
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="height=device-height">
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
-    <div class="glavimg"></div>
+    <div class="glavimg-container">
+        <div id="glavimg"></div>
+    </div>
     <div class="title-site">
             <p class="title-text">Deutschland</p>
     </div>
-    <div сlass="wrapper">
+    <div class="wrapper">
         <div class="content-not-active" id="sport1">
             <div class="ru-content">
                 <h2>Спорт</h2>
@@ -26,29 +29,29 @@
                 <p>1. Футбол. Он является спортом номер один в Германии. Немецкий футбольный союз является национальным управляющим органом футбола, в который входит более чем 26000 футбольных клубов. Лучшей считается Первая Бундеслига. В которой выступают
                     18 клубов. В Бундеслиге играет несколько лучших команд в мире, таких как Боруссия-Дортмунд и Бавария Мюнх и другие.</p>
 
-                <div class="img">
-                    <div class="futbol"></div>
+                <div class="img-container">
+                    <div class="img" id="futbol"></div>
                 </div>
 
                 <p>2. Гандбол. Гандбол зародился в Северной Европе и поэтому очень популярен во всей Германии. Для многих гандбол является вторым после футбола видом спорта в Германии. Большинство соревнований проходит в маленьких городах, где этот спорт
                     является главным.</p>
 
-                <div class="img">
-                    <div class="handbol"></div>
+                <div class="img-container">
+                    <div class="img" id="handbol"></div>
                 </div>
 
                 <p>3. Баскетбол. Баскетбол в Германии по-настоящему популярен, прежде всего, благодаря двум немецким игрокам. Это Дeтлеф Шремпф и Дирк Новицки. Матчи немецкой Лиги не являются самыми зрелищными в мире или в Европе, однако атмосфера на этих
                     играх действительно хороша.</p>
 
-                <div class="img">
-                    <div class="basketbol"></div>
+                <div class="img-container">
+                    <div class="img" id="basketbol"></div>
                 </div>
 
                 <p>4. Лыжный спорт. Лыжные гонки является занятием, в котором немцы скорее лучше примут участие, нежели будут следить за ходом соревнований. Так как Альпы находятся на юге страны, доступ к самым комфортабельным для лыж районам очень простой.
                     Излюбленные лыжные зоны находятся вблизи самой большой горы Германии - Цугшпитце.</p>
 
-                <div class="img">
-                    <div class="biatlon"></div>
+                <div class="img-container">
+                    <div class="img" id="biatlon"></div>
                 </div>
             </div>
             <div class="de-content">
@@ -59,29 +62,29 @@
                 <p>1. Fußball. Es ist die Sportart Nummer eins in Deutschland. Der Deutsche Fußball-Bund ist der nationale Fußballverband mit über 26.000 Fußballvereinen. Das Beste ist die Erste Bundesliga. In dem es 18 Vereine gibt. Die Bundesliga spielt
                     einige der besten Mannschaften der Welt, wie Borussia Dortmund und Bayern München und andere.</p>
 
-                <div class="img">
-                    <div class="futbol"></div>
+                <div class="img-container">
+                    <div class="img" id="futbol"></div>
                 </div>
 
                 <p>2. Handball. Handball hat seinen Ursprung in Nordeuropa und ist daher in ganz Deutschland sehr beliebt. Handball ist für viele nach Fußball die zweite Sportart in Deutschland. Die meisten Wettkämpfe finden in kleinen Städten statt, in
                     denen dieser Sport die Hauptrolle spielt.</p>
 
-                <div class="img">
-                    <div class="handbol"></div>
+                <div class="img-container">
+                    <div class="img" id="handbol"></div>
                 </div>
 
                 <p>3. Basketball Basketball in Deutschland ist vor allem dank zweier deutscher Spieler so beliebt. Das sind Detlef Schrempf und Dirk Nowitzki. Die Bundesliga-Spiele sind nicht die spektakulärsten der Welt oder Europas, aber die Atmosphäre
                     bei diesen Spielen ist wirklich gut.</p>
 
-                <div class="img">
-                    <div class="basketbol"></div>
+                <div class="img-container">
+                    <div class="img" id="basketbol"></div>
                 </div>
 
                 <p>4. Skifahren Langlaufen ist eine Aktivität, an der die Deutschen lieber teilnehmen, als dem Wettkampfverlauf zu folgen. Da sich die Alpen im Süden des Landes befinden, ist der Zugang zu den skifreundlichsten Gebieten sehr einfach. Beliebte
                     Skigebiete befinden sich in der Nähe des größten Berges Deutschlands - der Zugspitze.</p>
 
-                <div class="img">
-                    <div class="biatlon"></div>
+                <div class="img-container">
+                    <div class="img" id="biatlon"></div>
                 </div>
             </div>
         </div>
@@ -92,24 +95,24 @@
                 <p>Германия занимает третье место в списке самых посещаемых стран Европы. Там и правда есть на что посмотреть, но самыми посещаемыми городами в Германии являются:</p>
                 <p>1. Берлин - Столица Германии. Его называют столицей развлечений, а также городом творческих людей . Здесь много музеев, три оперных театра, десятки драматических театров и несколько крупных филармоний. В Потсдаме можно посмотреть на бывшую
                     резиденцию прусских королей с дворцово-парковым ансамблем Сан-Суси.</p>
-                <div class="img">
-                    <div class="berlin"></div>
+                <div class="img-container">
+                    <div class="img" id="berlin"></div>
                 </div>
                 <p>2. Гамбург. Этот город славится мостами, каналами и увеселительным кварталом Санкт-Паули. В городе много музеев: Краеведческий музей севера Германии, Музей специй, Музей-бомбоубежище, музей восковых фигур «Паноптикум» и даже Музей вина.</p>
-                <div class="img">
-                    <div class="hamburg"></div>
+                <div class="img-container">
+                    <div class="img" id="hamburg"></div>
                 </div>
                 <p>3. Мюнхен. В Мюнхене интересны замок Нюмфенбург, Старая пинакотека с произведениями европейского искусства XIV–XVII веков, Баварский национальный музей, Государственная коллекция античного искусства и музей BMW.</p>
-                <div class="img">
-                    <div class="munchen"></div>
+                <div class="img-container">
+                    <div class="img" id="munchen"></div>
                 </div>
                 <p>4. Кёльн - город который любителям культурного отдыха обходить точно не стоит. Этот город занимает второе место в мире после Нью-Йорка по числу художественных галелрей. Основная достопримечательность – Кёльнский собор в Старом городе.</p>
-                <div class="img">
-                    <div class="koln"></div>
+                <div class="img-container">
+                    <div class="img" id="koln"></div>
                 </div>
                 <p>5. Дюссельдорф. Здесь проводится крупнейшая в мире моды выставка женской одежды, аксессуаров, мехов, пляжной одежды, обуви «Collections Premieren Düsseldorf» (CPD).</p>
-                <div class="img">
-                    <div class="dusseldorf"></div>
+                <div class="img-container">
+                    <div class="img" id="dusseldorf"></div>
                 </div>
             </div>
             <div class="de-content">
@@ -117,26 +120,26 @@
                 <p>Deutschland belegt den dritten Platz in der Liste der meistbesuchten Länder in Europa. Es gibt wirklich etwas zu sehen, aber die meistbesuchten Städte in Deutschland sind:</p>
                 <p>1. Berlin ist die Hauptstadt von Deutschland. Es wird die Hauptstadt der Unterhaltung sowie die Stadt der Kreativen genannt. Es gibt viele Museen, drei Opernhäuser, Dutzende Schauspielhäuser und mehrere große Philharmonien. In Potsdam
                     können Sie die ehemalige Residenz der preußischen Könige mit dem Schloss- und Parkensemble Sanssouci besichtigen.</p>
-                <div class="img">
-                    <div class="berlin"></div>
+                <div class="img-container">
+                    <div class="img" id="berlin"></div>
                 </div>
                 <p>2. Hamburg. Diese Stadt ist berühmt für ihre Brücken, Kanäle und das Vergnügungsviertel St. Pauli. In der Stadt gibt es viele Museen: das Heimatmuseum des Nordens, das Gewürzmuseum, das Bunkermuseum, das Wachsfigurenkabinett Panoptikum
                     und sogar das Weinmuseum.</p>
-                <div class="img">
-                    <div class="hamburg"></div>
+                <div class="img-container">
+                    <div class="img" id="hamburg"></div>
                 </div>
                 <p>3. München. In München sind Schloss Nymphenburg, die Alte Pinakothek mit Werken europäischer Kunst des 14.-17. Jahrhunderts, das Bayerische Nationalmuseum, die Staatssammlung für Antike Kunst und das BMW-Museum von Interesse.</p>
-                <div class="img">
-                    <div class="munchen"></div>
+                <div class="img-container">
+                    <div class="img" id="munchen"></div>
                 </div>
                 <p>4. Köln ist eine Stadt, die Liebhaber kultureller Erholung auf keinen Fall verpassen sollten. Diese Stadt steht weltweit nach New York an zweiter Stelle in Bezug auf die Anzahl der Kunstgalerien. Die Hauptattraktion ist der Kölner Dom
                     in der Altstadt.</p>
-                <div class="img">
-                    <div class="koln"></div>
+                <div class="img-container">
+                    <div class="img" id="koln"></div>
                 </div>
                 <p>5. Düsseldorf. Hier findet die weltgrößte Modemesse für Damenbekleidung, Accessoires, Pelze, Bademode, Schuhe „Collections Premieren Düsseldorf“ (CPD) statt.</p>
-                <div class="img">
-                    <div class="dusseldorf"></div>
+                <div class="img-container">
+                    <div class="img" id="dusseldorf"></div>
                 </div>
             </div>
         </div>
@@ -146,44 +149,44 @@
                 <p>Система школьного образования в Германии состоит из начальной школы (первой ступени обучения) и второй ступени обучения I и II (специальной (неполной средней) школы, реальной школы (для получения среднего образования) или гимназии).Начальная
                     школа охватывает классы с первого по четвертый. Здесь дети учатся основным навыкам, которые пригодятся им позже – чтению, счету, письму.Обычно в первых двух классах детям не ставят оценки, к ним присматриваются и оценивают их знания.
                     Уже с 3-4 класса начинают выставляться оценки.</p>
-                <div class="img">
-                    <div class="school1"></div>
+                <div class="img-container">
+                    <div class="img" id="school1"></div>
                 </div>
                 <p>В четвертом классе детям выдают рекомендации, в которых указано, в какую школу им лучше поступить: В гимназию, окончание которой дает право на поступление в университет.Обучение здесь длится 8-9 лет. Причем в последнем классе ученики считаются
                     не школьниками, а абитуриентами и занимаются к тем, что готовятся к учебе в определенном ВУЗе. Лишь после окончания гимназии можно получить так называемый аттестат. И уже по выставленным в нем оценкам происходит зачисление в одно из
                     высших учебных заведений страны, без сдачи вступительных экзаменов.</p>
-                <div class="img">
-                    <div class="school2"></div>
+                <div class="img-container">
+                    <div class="img" id="school2"></div>
                 </div>
                 <p>Реальное училище - это учебное заведение предназначено для детей со средними и высокими знаниями. Обучение здесь длится 6 лет. При успешном окончании реальной школы, есть возможность поступить в гимназию и продолжить обучение для поступления
                     в высшее учебное заведение. Закончить ее с высокими оценками могут лишь самые целеустремленные ученики.</p>
-                <div class="img">
-                    <div class="school3"></div>
+                <div class="img-container">
+                    <div class="img" id="school3"></div>
                 </div>
                 <p>Общая школа - это учебное заведение в некотором смысле совмещает в себе реальную школу и гимназию. В основном в Gesamtschule идут учиться те дети, родители которых не согласны с их первоначальным определением в реальную или основную школу.</p>
-                <div class="img">
-                    <div class="school4"></div>
+                <div class="img-container">
+                    <div class="img" id="school4"></div>
                 </div>
                 <p>Основная школа. в это учебное заведение отправляются учиться дети с самыми слабыми способностями. Главной задачей основной школы является подготовка к работе в областях, который требуют малой профессиональной квалификации.Обучение длится
                     5 лет. После его окончания выпускник может устроиться на работу или продолжать учебу в профтехучилище. А ученики со средними результатами имеют возможность продолжить учебу поступив в реальную школу, а затем в гимназию для получения
                     аттестата.
                 </p>
-                <div class="img">
-                    <div class="school5"></div>
+                <div class="img-container">
+                    <div class="img" id="school5"></div>
                 </div>
                 <p> Также в Германии существуют школы для детей с особым развитием. Дети с особенностями физического или психического развития не идут в начальную школу – они сразу начинают обучаться в данной школе и продолжают учебу вплоть до выпуска. В
                     таких школах детей не только обучают базовым навыкам, но также стараются приспособить к жизни и работе в обществе. За ними постоянно следит медицинский персонал.</p>
-                <div class="img">
-                    <div class="school6"></div>
+                <div class="img-container">
+                    <div class="img" id="school6"></div>
                 </div>
                 <p>Школы свободного развития - учебные заведения католической направленности. При обучении в них упор делается на духовное совершенствование детей и их саморазвитие.</p>
-                <div class="img">
-                    <div class="school7"></div>
+                <div class="img-container">
+                    <div class="img" id="school7"></div>
                 </div>
                 <p>И к уникальным учебным заведениям, которые многим могут показаться фантастическими относятся вальдорфские школы. На протяжении всей учебы там не ставят оценок ученикам, не проводят каких-либо тестов или экзаменов, и даже самых нерадивых
                     учеников не оставляют на второй год. Учеба в таких школах идет с первого до выпускного класса — нет разделения на начальную и средние школы. А главный упор в образовании делается на развитие творческих навыков и способностей ребенка.</p>
-                <div class="img">
-                    <div class="school8"></div>
+                <div class="img-container">
+                    <div class="img" id="school8"></div>
                 </div>
             </div>
             <div class="de-content">
@@ -191,46 +194,46 @@
                 <p>Das Schulsystem in Deutschland besteht aus der Grundschule (erster Bildungsabschnitt) und den zweiten Bildungsabschnitten I und II (Sonderschule, Realschule oder Gymnasium) Die Grundschule umfasst die Jahrgangsstufen eins bis vier. Hier
                     lernen die Kinder die Grundfertigkeiten, die ihnen später nützlich sein werden – Lesen, Zählen, Schreiben.Normalerweise werden die Kinder in den ersten beiden Klassen nicht benotet, sondern angeschaut und ihr Wissen bewertet. Bereits
                     mit 3-4 Klassen werden Noten vergeben.</p>
-                <div class="img">
-                    <div class="school1"></div>
+                <div class="img-container">
+                    <div class="img" id="school1"></div>
                 </div>
                 <p>In der vierten Klasse erhalten die Kinder Empfehlungen, auf welche Schule sie gehen sollen: Gymnasium, dessen Abschluss zum Studium berechtigt, hier dauert die Ausbildung 8-9 Jahre. Darüber hinaus gelten die Schüler in der letzten Klasse
                     nicht als Schüler, sondern als Bewerber und bereiten sich auf das Studium an einer bestimmten Universität vor. Erst nach dem Abitur bekommt man das sogenannte Zeugnis. Und schon nach den darin festgelegten Noten wird man an einer der
                     höheren Bildungseinrichtungen des Landes eingeschrieben, ohne die Aufnahmeprüfungen zu bestehen.</p>
-                <div class="img">
-                    <div class="school2"></div>
+                <div class="img-container">
+                    <div class="img" id="school2"></div>
                 </div>
                 <p>Realschule - diese Bildungseinrichtung ist für Kinder mit durchschnittlichem und hohem Wissen bestimmt. Die Ausbildung dauert hier 6 Jahre. Nach erfolgreichem Abschluss einer Realschule besteht die Möglichkeit, ein Gymnasium zu besuchen
                     und für die Zulassung zu einer höheren Bildungseinrichtung weiterzustudieren.Nur die motiviertesten Schüler können mit guten Noten abschließen.</p>
-                <div class="img">
-                    <div class="school3"></div>
+                <div class="img-container">
+                    <div class="img" id="school3"></div>
                 </div>
                 <p>Gesamtschule ist gewissermaßen eine Bildungseinrichtung, die eine echte Schule und ein Gymnasium kombiniert. Grundsätzlich besuchen die Kinder die Gesamtschule, deren Eltern mit ihrer ursprünglichen Definition in einer Real- oder Grundschule
                     nicht einverstanden sind.</p>
-                <div class="img">
-                    <div class="school4"></div>
+                <div class="img-container">
+                    <div class="img" id="school4"></div>
                 </div>
                 <p>Hauptschule. Kinder mit den schwächsten Fähigkeiten besuchen diese Bildungseinrichtung. Hauptaufgabe der Grundschule ist die Vorbereitung auf Tätigkeiten in Bereichen, die einen geringen beruflichen Abschluss erfordern.Die Ausbildung dauert
                     5 Jahre. Nach dem Abschluss kann ein Absolvent einen Job bekommen oder sein Studium an einer Berufsschule fortsetzen. Und Schüler mit durchschnittlichen Ergebnissen haben die Möglichkeit, ihr Studium fortzusetzen, indem sie sich in
                     eine echte Schule einschreiben und dann in ein Gymnasium gehen, um ein Zertifikat zu erhalten.</p>
-                <div class="img">
-                    <div class="school5"></div>
+                <div class="img-container">
+                    <div class="img" id="school5"></div>
                 </div>
                 <p> Auch in Deutschland gibt es Schulen für Kinder mit besonderer Förderung. Kinder mit körperlichen oder geistigen Behinderungen gehen nicht in die Grundschule – sie beginnen sofort mit dem Studium an dieser Schule und setzen ihr Studium
                     bis zum Abschluss fort. In solchen Schulen werden den Kindern nicht nur grundlegende Fähigkeiten beigebracht, sondern sie versuchen sich auch an das Leben und Arbeiten in der Gesellschaft anzupassen. Sie werden ständig von medizinischem
                     Personal überwacht.</p>
-                <div class="img">
-                    <div class="school6"></div>
+                <div class="img-container">
+                    <div class="img" id="school6"></div>
                 </div>
                 <p>Schulen der freien Entfaltung - Bildungseinrichtungen katholischer Ausrichtung. Beim Unterrichten liegt der Schwerpunkt auf der spirituellen Verbesserung der Kinder und ihrer Selbstentwicklung.</p>
-                <div class="img">
-                    <div class="school7"></div>
+                <div class="img-container">
+                    <div class="img" id="school7"></div>
                 </div>
                 <p>Und Waldorfschulen sind einzigartige Bildungseinrichtungen, die vielen fantastisch erscheinen mögen. Während des gesamten Studiums geben sie den Schülern keine Noten, führen keine Tests oder Prüfungen durch und selbst die nachlässigsten
                     Schüler bleiben nicht für das zweite Jahr übrig. Das Studium an solchen Schulen geht von der ersten bis zur letzten Klasse – es gibt keine Trennung in Grund- und weiterführende Schulen. Und der Schwerpunkt in der Bildung liegt auf
                     der Entwicklung kreativer Fähigkeiten und Fertigkeiten des Kindes.</p>
-                <div class="img">
-                    <div class="school8"></div>
+                <div class="img-container">
+                    <div class="img" id="school8"></div>
                 </div>
             </div>
         </div>
@@ -240,41 +243,41 @@
                 <p>Германия подарила миру большое количество выдающихся людей, которые внесли неоценимый вклад в науку, промышленность, искусство и политику не только своей страны, но и в мировом масштабе.</p>
                 <p>1. Отто фон Бисмарк занимал пост первого канцлера Германии, который вел жесткую и целенаправленную политику, за что его называли «железным канцлером». Несмотря на то, что в молодости он увлекался дуэлями и азартными играми, это не
                     помешало ему стать выдающимся политиком и принести пользу своей стране. Кстати, он неплохо владел русским языком.</p>
-                <div class="img">
-                    <div class="otto-von-bismark"></div>
+                <div class="img-container">
+                    <div class="img" id="otto-von-bismark"></div>
                 </div>
                 <p>2. Иоганн Себастьян Бах – великий композитор, написавший более 1000 произведений во всех жанрах эпохи барокко, кроме оперы.</p>
-                <div class="img">
-                    <div class="bach"></div>
+                <div class="img-container">
+                    <div class="img" id="bach"></div>
                 </div>
                 <p>3. Людвиг ван Бетховен сыграл ключевую роль в развитии классической музыки запада. Композитор не только сочинял гениальные произведения, но и сам исполнял их. Его творения звучат и сегодня по всему миру.</p>
-                <div class="img">
-                    <div class="bethoven"></div>
+                <div class="img-container">
+                    <div class="img" id="bethoven"></div>
                 </div>
                 <p>4. Вилли Брандт – четвертый канцлер Германии, который внес большой вклад в международные отношения, за что получил в 1971 году Нобелевскую премию мира.</p>
-                <div class="img">
-                    <div class="brandt"></div>
+                <div class="img-container">
+                    <div class="img" id="brandt"></div>
                 </div>
                 <p>5. Альбрехт Дюрер – крупнейший в Европе мастер ксилографии, живописи и графики, первый теоретик искусства среди североевропейских художников. Он первый из художников Европы, кто написал свою автобиографию.</p>
-                <div class="img">
-                    <div class="durer"></div>
+                <div class="img-container">
+                    <div class="img" id="durer"></div>
                 </div>
                 <p>6. Альберт Эйнштейн – выдающийся немецкий физик, автор более 300 научных работ, автор теории относительности и ряда других выдающихся открытий. Кроме науки Энштейн вел активную общественную деятельность, пропагандировал идеи гуманизма.</p>
-                <div class="img">
-                    <div class="einschtein"></div>
+                <div class="img-container">
+                    <div class="img" id="einschtein"></div>
                 </div>
                 <p>7. Мартин Лютер был христианским богословом и инициатором Реформации в Германии, которая стала отправной точкой зарождения капитализма в Германии и наполнила страну духом нового времени.</p>
-                <div class="img">
-                    <div class="luter"></div>
+                <div class="img-container">
+                    <div class="img" id="luter"></div>
                 </div>
                 <p>8. Ангела Меркель – это первая женщина в Германии, занявшая пост канцлера Германии, на котором она находится и по сей день с 2005 года. Ангела много раз была первой в списке самых влиятельных женщин в мире по версии журнала Forbes.</p>
-                <div class="img">
-                    <div class="merkel"></div>
+                <div class="img-container">
+                    <div class="img" id="merkel"></div>
                 </div>
                 <p>9. Михаель Шумахер – настоящий герой нашего времени. Немецкий автогонщик стал настоящей легендой Формулы 1. На его счету 7 побед в чемпионатах мира, многочисленные рекорды, огромное количеств медалей, выигранных за 20 лет в более,
                     чем 300 гонках. Сегодня весь мир следит за состоянием здоровья, так как спортсмен получит серьезную травму, с последствиями которой ведет тяжелую борьбу.</p>
-                <div class="img">
-                    <div class="schumacher"></div>
+                <div class="img-container">
+                    <div class="img" id="schumacher"></div>
                 </div>
             </div>
             <div class="de-content">
@@ -282,43 +285,43 @@
                 <p>Deutschland hat der Welt eine große Anzahl herausragender Persönlichkeiten geschenkt, die einen unschätzbaren Beitrag zu Wissenschaft, Industrie, Kunst und Politik nicht nur in ihrem Land, sondern auch weltweit geleistet haben.</p>
                 <p>1. Otto von Bismarck war der erste Bundeskanzler Deutschlands, der u harte und zielstrebige Politik, für die er den „Eisernen Kanzler“ nannte. Obwohl er in seiner Jugend Duelle und Glücksspiele liebte, hinderte ihn dies nicht daran,
                     ein herausragender Politiker zu werden und seinem Land zu nützen. Er beherrschte übrigens sehr gut Russisch.</p>
-                <div class="img">
-                    <div class="otto-von-bismark"></div>
+                <div class="img-container">
+                    <div class="img" id="otto-von-bismark"></div>
                 </div>
                 <p>2. Johann Sebastian Bach ist ein großer Komponist, der mehr als 1000 Werke in allen Genres des Barock, außer der Oper, geschrieben hat.</p>
-                <div class="img">
-                    <div class="bach"></div>
+                <div class="img-container">
+                    <div class="img" id="bach"></div>
                 </div>
                 <p>3. Ludwig van Beethoven spielte eine Schlüsselrolle in der Entwicklung der westlichen klassischen Musik. Der Komponist hat nicht nur brillante Werke komponiert, sondern sie auch selbst aufgeführt. Seine Kreationen sind heute auf der
                     ganzen Welt zu hören.</p>
-                <div class="img">
-                    <div class="bethoven"></div>
+                <div class="img-container">
+                    <div class="img" id="bethoven"></div>
                 </div>
                 <p>4. Willy Brandt ist der vierte deutsche Bundeskanzler, der sich um die internationalen Beziehungen verdient gemacht hat, wofür er 1971 den Friedensnobelpreis erhielt.</p>
-                <div class="img">
-                    <div class="brandt"></div>
+                <div class="img-container">
+                    <div class="img" id="brandt"></div>
                 </div>
                 <p>5. Albrecht Dürer ist Europas größter Meister des Holzschnitts, der Malerei und Grafik, der erste Kunsttheoretiker unter den nordeuropäischen Künstlern. Er ist der erste Künstler in Europa, der seine Autobiographie verfasst hat.</p>
-                <div class="img">
-                    <div class="durer"></div>
+                <div class="img-container">
+                    <div class="img" id="durer"></div>
                 </div>
                 <p>6. Albert Einstein ist ein herausragender deutscher Physiker, Autor von mehr als 300 wissenschaftlichen Abhandlungen, Autor der Relativitätstheorie und einer Reihe anderer herausragender Entdeckungen. Neben der Wissenschaft war Einstein
                     öffentlich aktiv und förderte die Ideen des Humanismus.</p>
-                <div class="img">
-                    <div class="einschtein"></div>
+                <div class="img-container">
+                    <div class="img" id="einschtein"></div>
                 </div>
                 <p>7. Martin Luther war ein christlicher Theologe und Initiator der Reformation in Deutschland, die zum Ausgangspunkt für die Geburt des Kapitalismus in Deutschland wurde und das Land mit dem Geist der neuen Zeit erfüllte.</p>
-                <div class="img">
-                    <div class="luter"></div>
+                <div class="img-container">
+                    <div class="img" id="luter"></div>
                 </div>
                 <p>8. Angela Merkel ist die erste Frau in Deutschland, die die Posten der deutschen Bundeskanzlerin, wo sie bis heute seit 2005 des Jahres ist. Angela war viele Male die Nummer eins auf der Forbes-Liste der mächtigsten Frauen der Welt.</p>
-                <div class="img">
-                    <div class="merkel"></div>
+                <div class="img-container">
+                    <div class="img" id="merkel"></div>
                 </div>
                 <p>9. Michael Schumacher ist ein echter Held unserer Zeit. Der deutsche Rennfahrer ist zu einer wahren Formel-1-Legende geworden. Aufgrund seiner 7 Siege bei Weltmeisterschaften, zahlreichen Rekorden, einer Vielzahl von Medaillen, die
                     er in 20 Jahren in mehr als 300 Rennen gewonnen hat. Heute überwacht die ganze Welt den Gesundheitszustand, da ein Athlet eine schwere Verletzung erleidet, mit deren Folgen er hart kämpft.</p>
-                <div class="img">
-                    <div class="schumacher"></div>
+                <div class="img-container">
+                    <div class="img" id="schumacher"></div>
                 </div>
             </div>
         </div>
@@ -329,28 +332,28 @@
                 <p>1. Oktoberfest. Немецкий фестиваль пива — Октоберфест. Это традиционный баварский праздник, где пиво и жареное мясо поглощаются в неимоверных количествах. Вообще-то изначально это была местная традиция. История праздника началась в
                     далеком 1810 году, когда кронпринц Людвиг праздновал свадьбу с принцессой Терезой. Тогда жителям Мюнхена разрешили участвовать в гуляниях. Октоберфест считается самым большим праздником такого рода в мире. Около 70 % посетителей
                     — жители Баварии. Очень много посетителей из Италии и других членов Евросоюза, а также из США, Японии, Австралии.</p>
-                <div class="img">
-                    <div class="oktoberfest"></div>
+                <div class="img-container">
+                    <div class="img" id="oktoberfest"></div>
                 </div>
                 <p>2. Pferdewallfahrt. Здесь нет ошибки - именно такая религиозная традиция до сих пор ещё присутствует в Германии, а если быть точнее - в земле Тюрингии. Этот обычай очень древний, ему уже более 350 лет. Интересное действо происходит
                     каждый год 2 июля, после праздника явления Девы Марии Елизавете в тюрингской деревушке Этцельсбах. В небольшой часовне католики проводят богослужение, после чего происходит церемония благословения лошадей. Как гласит легенда, в
                     16 веке неподалёку от этого места посреди поля была найдена пиета. Когда лошади крестьянина отказались идти дальше, он осмотрелся по сторонам и обнаружил драгоценную реликвию. Икону, вырезанную из дерева, поставили в часовне, а
                     паломничество на лошадях стало ежегодным обрядом.</p>
-                <div class="img">
-                    <div class="pferdewallfahrt"></div>
+                <div class="img-container">
+                    <div class="img" id="pferdewallfahrt"></div>
                 </div>
                 <p>3. Silvester. Новый год или Сильвестр, как его принято называть в Германии, - праздник, который имеет множество традиций. Помимо весёлого застолья и фейерверков, в разных землях торжество сопровождается разными действами. Например,
                     в северной части Германии 31 декабря дети надевают интересные наряды и ходят по улицам, требуя сладости. Традиция, которой уже более 300 лет, носит название «Rummelpottlaufen». Как гласит легенда, такие громкие шествия распугивают
                     демонов.
                 </p>
-                <div class="img">
-                    <div class="silvester"></div>
+                <div class="img-container">
+                    <div class="img" id="silvester"></div>
                 </div>
                 <p>4. Schultüte. В Германии нет единого дня начала занятий у школьников - в каждой земле даты начала школы различаются. Как правило, учебный год начинается в августе. Если в России принято 1 сентября идти в школу с букетом цветов в подарок
                     учителю, то в Германии обычаи совершенно другие. Для первоклассников начало школы - долгожданное событие, ведь они знают, что во время праздника каждый из них получит подарок - Schultüte, «школьный кулёк», наполненный игрушками,
                     сладостями или школьными принадлежностями. Так называемый школьный кулёк имеет конусообразную форму с завязками сверху. Некоторые родители мастерят его вместе с детьми, другие покупают в магазине.</p>
-                <div class="img">
-                    <div class="schultute"></div>
+                <div class="img-container">
+                    <div class="img" id="schultute"></div>
                 </div>
             </div>
             <div class="de-content">
@@ -360,28 +363,28 @@
                 <p>1. Oktoberfest. Deutsches Bierfest - Oktoberfest. Dies ist ein traditioneller bayerischer Feiertag, an dem Bier und Grillfleisch in unglaublichen Mengen konsumiert werden. Eigentlich war es ursprünglich eine lokale Tradition. Die Geschichte
                     des Feiertags begann im Jahr 1810, als Kronprinz Ludwig seine Hochzeit mit Prinzessin Teresa feierte. Dann durften die Münchner an den Feierlichkeiten teilnehmen. Das Oktoberfest gilt als das größte Fest seiner Art auf der Welt.
                     Etwa 70 % der Besucher sind Einwohner Bayerns. Es gibt viele Besucher aus Italien und anderen Mitgliedern der Europäischen Union, sowie aus den USA, Japan, Australien.</p>
-                <div class="img">
-                    <div class="oktoberfest"></div>
+                <div class="img-container">
+                    <div class="img" id="oktoberfest"></div>
                 </div>
                 <p>2. Pferdewallfahrt. Darin besteht kein Zweifel – eine solche religiöse Tradition ist in Deutschland, genauer gesagt in Thüringen, immer noch vorhanden. Dieser Brauch ist sehr alt, über 350 Jahre alt. Eine interessante Aktion findet
                     jedes Jahr am 2. Juli nach dem Fest Mariä Erscheinung vor Elisabeth im thüringischen Etzelsbach statt. In einer kleinen Kapelle halten Katholiken einen Gottesdienst ab, nach dem eine Zeremonie zur Segnung der Pferde stattfindet.
                     Der Legende nach wurde im 16. Jahrhundert in der Mitte eines Feldes unweit dieses Ortes eine Pieta gefunden. Als die Pferde des Bauern sich weigerten, weiterzuziehen, sah er sich um und fand eine kostbare Reliquie. Die aus Holz
                     geschnitzte Ikone wurde in der Kapelle aufgestellt, und die Wallfahrt zu Pferd wurde zu einem jährlichen Ritus.</p>
-                <div class="img">
-                    <div class="pferdewallfahrt"></div>
+                <div class="img-container">
+                    <div class="img" id="pferdewallfahrt"></div>
                 </div>
                 <p>3. Silvester. Neujahr oder Silvester, wie es in Deutschland meist genannt wird, ist ein Feiertag mit vielen Traditionen. Neben einem lustigen Fest und Feuerwerk wird die Feier in verschiedenen Ländern von verschiedenen Aktionen begleitet.
                     Zum Beispiel ziehen sich Kinder im Norden Deutschlands am 31. Dezember interessante Outfits an und gehen mit der Forderung nach Süßigkeiten durch die Straßen. Der über 300 Jahre alte Brauch heißt „Rummelpottlaufen“. Der Legende
                     nach verscheuchen solch lautstarke Prozessionen Dämonen.</p>
-                <div class="img">
-                    <div class="silvester"></div>
+                <div class="img-container">
+                    <div class="img" id="silvester"></div>
                 </div>
                 <p>4. Schultute. In Deutschland gibt es keinen einheitlichen Tag für den Schulbeginn – in jedem Bundesland sind die Schulbeginntermine unterschiedlich. Das Studienjahr beginnt in der Regel im August. Wenn es in Russland üblich ist, am
                     1. September mit einem Blumenstrauß als Geschenk für den Lehrer in die Schule zu gehen, dann sind die Sitten in Deutschland ganz anders. Für Erstklässler ist der Schulstart ein lang ersehntes Ereignis, denn sie wissen, dass jeder
                     von ihnen in den Ferien ein Geschenk bekommt – eine Schultüte, eine „Schultüte“, gefüllt mit Spielzeug, Süßigkeiten oder Schulmaterial. Die sogenannte Schultüte hat eine konische Form mit Bändern oben. Manche Eltern machen es mit
                     ihren Kindern, andere kaufen es im Laden.</p>
-                <div class="img">
-                    <div class="schultute"></div>
+                <div class="img-container">
+                    <div class="img" id="schultute"></div>
                 </div>
             </div>
         </div>

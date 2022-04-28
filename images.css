@@ -1,0 +1,117 @@
+#glavimg {
+	background: no-repeat center/100% url(images/glav.jpg);
+}
+
+.menu-btn {
+	background: no-repeat center/100% url(images/burger.jpg);
+}
+
+#sport-news .news-photo {
+    background: no-repeat center/100% url(images/basketbol.jpg);
+}
+#horoda-news .news-photo {
+    background: no-repeat center/100% url(images/munchen.jpg);
+}
+#school-news .news-photo {
+    background: no-repeat center/100% url(images/school1.jpg);
+}
+#ludi-news .news-photo {
+    background: no-repeat center/100% url(images/einschtein.jpg);
+}
+#traditii-news .news-photo {
+    background: no-repeat center/100% url(images/pferdewallfahrt.jpg);
+}
+#fakt-news .news-photo {
+    background: no-repeat center/100% url(images/fakt.jpg);
+}
+
+.img#futbol {
+    background: no-repeat center/100% url(images/futbol.jpg);
+}
+.img#handbol {
+    background: no-repeat center/100% url(images/handbol.jpg);
+}
+.img#basketbol {
+    background: no-repeat center/100% url(images/basketbol.jpg);
+}
+.img#biatlon {
+    background: no-repeat center/100% url(images/biatlon.jpg);
+}
+.img#berlin {
+    background: no-repeat center/100% url(images/berlin.jpg);
+}
+.img#hamburg {
+    background: no-repeat center/100% url(images/hamburg.jpg);
+}
+.img#munchen {
+    background: no-repeat center/100% url(images/munchen.jpg);
+}
+.img#koln {
+    background: no-repeat center/100% url(images/koln.jpg);
+}
+.img#dusseldorf {
+    background: no-repeat center/100% url(images/dusseldorf.jpg);
+}
+.img#school1 {
+    background: no-repeat center/100% url(images/school1.jpg);
+}
+.img#school2 {
+    background: no-repeat center/100% url(images/school2.jpg);
+}
+.img#school3 {
+    background: no-repeat center/100% url(images/school3.jpg);
+}
+.img#school4 {
+    background: no-repeat center/100% url(images/school4.jpg);
+}
+.img#school5 {
+    background: no-repeat center/100% url(images/school5.jpg);
+}
+.img#school6 {
+    background: no-repeat center/100% url(images/school6.jpg);
+}
+.img#school7 {
+    background: no-repeat center/100% url(images/school7.jpg);
+}
+.img#school8 {
+    background: no-repeat center/100% url(images/school8.jpg);
+}
+.img#otto-von-bismark {
+    background: no-repeat center/100% url(images/otto-von-bismark.jpg);
+}
+.img#bach {
+    background: no-repeat center/100% url(images/bach.jpg);
+}
+.img#bethoven {
+    background: no-repeat center/100% url(images/bethoven.jpg);
+}
+.img#brandt {
+    background: no-repeat center/100% url(images/brandt.jpg);
+}
+.img#durer {
+    background: no-repeat center/100% url(images/durer.jpg);
+}
+.img#einschtein {
+    background: no-repeat center/100% url(images/einschtein.jpg);
+}
+.img#luter {
+    background: no-repeat center/100% url(images/luter.jpg);
+}
+.img#merkel {
+    background: no-repeat center/100% url(images/merkel.jpg);
+}
+.img#schumacher {
+    background: no-repeat center/100% url(images/schumacher.jpg);
+}
+.img#oktoberfest {
+    background: no-repeat center/100% url(images/oktoberfest.jpg);
+}
+.img#pferdewallfahrt {
+    background: no-repeat center/100% url(images/pferdewallfahrt.jpg);
+}
+.img#silvester {
+    background: no-repeat center/100% url(images/silvester.jpg);
+}
+.img#schultute {
+    background: no-repeat center/100% url(images/schultute.jpg);
+}
