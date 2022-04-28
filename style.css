@@ -56,7 +56,7 @@
             top: 17.5%;
         }
         
-        .news1 {
+        .news {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -64,164 +64,45 @@
             border-radius: 15px;
             width: 25%;
             height: 29.35%;
-            
-            top: 27.95%;
-            left: 3.3%;
             text-align: center;
             flex-direction: column;
         }
+              
+         
+        .news-text {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .news-photo {
+            border-radius: 10px;
+            height: 60%;
+            width: 80%;
+            padding: 15px;
+        }
         
-        .news1-photo {
+        #news1 .news-photo {
             background: no-repeat center/100% url(basketbol.jpg);
-            border-radius: 10px;
-            height: 60%;
-            width: 80%;
-            padding: 15px;
         }
         
-        .news1-text {
-            text-align: center;
-            font-size: 24px;
-        }
-        
-        .news2 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            border-radius: 15px;
-            width: 25%;
-            
-            height: 29.35%;
-            top: 27.95%;
-            left: 37.25%;
-            text-align: center;
-            flex-direction: column;
-        }
-        
-        .news2-photo {
+        #news2 .news-photo {
             background: no-repeat center/100% url(munchen.jpg);
-            border-radius: 10px;
-            height: 60%;
-            width: 80%;
-            padding: 15px;
         }
-        
-        .news2-text {
-            text-align: center;
-            font-size: 24px;
-        }
-        
-        .news3 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            border-radius: 15px;
-            width: 25%;
-            height: 29.35%;
-            
-            top: 27.95%;
-            left: 71.0%;
-            text-align: center;
-            flex-direction: column;
-        }
-        
-        .news3-photo {
+      
+        #news3 .news-photo {
             background: no-repeat center/100% url(school1.jpg);
-            border-radius: 10px;
-            height: 60%;
-            width: 80%;
-            padding: 15px;
         }
-        
-        .news3-text {
-            text-align: center;
-            font-size: 24px;
-        }
-        
-        .news4 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            border-radius: 15px;
-            width: 25%;
-            height: 29.35%;
-            
-            top: 66.54%;
-            left: 3.3%;
-            text-align: center;
-            flex-direction: column;
-        }
-        
-        .news4-photo {
+
+        #news4 .news-photo {
             background: no-repeat center/100% url(einschtein.jpg);
-            border-radius: 10px;
-            height: 60%;
-            width: 80%;
-            padding: 15px;
         }
-        
-        .news4-text {
-            text-align: center;
-            font-size: 24px;
-        }
-        
-        .news5 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            border-radius: 15px;
-            width: 25%;
-            height: 29.35%;
-            
-            top: 66.54%;
-            left: 37.25%;
-            text-align: center;
-            flex-direction: column;
-        }
-        
-        .news5-photo {
+
+        #news5 .news-photo {
             background: no-repeat center/100% url(pferdewallfahrt.jpg);
-            border-radius: 10px;
-            height: 60%;
-            width: 80%;
-            padding: 15px;
         }
         
-        .news5-text {
-            text-align: center;
-            font-size: 24px;
-        }
-        
-        .news6 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            border-radius: 15px;
-            width: 25%;
-            height: 29.35%;
-            
-            top: 66.54%;
-            left: 71.00%;
-            text-align: center;
-            flex-direction: column;
-        }
-        
-        .news6-photo {
+        #news6 .news-photo {
             background: no-repeat center/100% url(fakt.jpg);
-            border-radius: 10px;
-            height: 60%;
-            width: 80%;
-            padding: 15px;
-        }
-        
-        .news6-text {
-            text-align: center;
-            font-size: 24px;
         }
         
         .glavimg {
@@ -270,9 +151,7 @@
         }
         
         .title-site {
-            position: absolute;
-            top: 16%;
-            left: 42%;
+            
             display: flex;
             justify-content: center;
             align-items: center;
