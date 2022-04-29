@@ -6,6 +6,10 @@
 	background: no-repeat center/100% url(images/burger.jpg);
 }
 
+.menu-active .menu-btn {
+    background: no-repeat center/100% url(images/cross.jpg);
+}
+
 #sport-news .news-photo {
     background: no-repeat center/100% url(images/basketbol.jpg);
 }
