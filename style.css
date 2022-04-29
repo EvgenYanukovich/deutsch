@@ -196,7 +196,8 @@ h2 {
 
 @media (max-width: 660px) {
     .news {
-        width: 80%;
+        width: 85%;
+        height: 50vh;
         margin-bottom: 15px;
     }
 
@@ -212,8 +213,15 @@ h2 {
 }
 
 @media (max-width: 450px) {
+    #glavimg {
+        width: 100vm;
+        height: 10vh;
+        border-radius: 20px;
+    }
+
     .news {
         width: 100%;
+        height: 40vh;
         margin-bottom: 10px;
     }
 
