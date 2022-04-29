@@ -1,3 +1,16 @@
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes back-rotation {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+
 * {
     margin: 2px;
     padding: 2px;
@@ -50,6 +63,15 @@ body {
     position: absolute;
     right: -50px;
     top: 17.5%;
+}
+
+.menu-active .menu-btn {
+    animation: rotation 1.3s;
+    z-index: 10;
+}
+
+.menu-not-active .menu-btn {
+    animation: back-rotation 1.3s;
 }
 
 #glavnoe-menu1 {

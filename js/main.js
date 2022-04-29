@@ -2,6 +2,7 @@ $(function() {
 
     $('.menu-btn').on('click', function() {
         $('.menu').toggleClass('menu-active');
+        $('.menu').toggleClass('menu-not-active');
     })
 
     $('#sport').click(function() {
