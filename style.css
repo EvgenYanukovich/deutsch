@@ -1,12 +1,28 @@
-@keyframes rotation {
-    to {
-        transform: rotate(360deg);
+@keyframes menu-btn-rotation {
+    0% {
+        transform: rotate(0deg);
+        background: no-repeat center/100% url(images/burger.png);
+    }
+    50% {
+        background: no-repeat center/100% url(images/cross.png);
+    }
+    100% {
+        transform: rotate(180deg);
+        background: no-repeat center/100% url(images/cross.png);
     }
 }
 
-@keyframes back-rotation {
-    to {
-        transform: rotate(-360deg);
+@keyframes menu-btn-back-rotation {
+    0% {
+        transform: rotate(0deg);
+        background: no-repeat center/100% url(images/cross.png);
+    }
+    50% {
+        background: no-repeat center/100% url(images/burger.png);
+    }
+    100% {
+        transform: rotate(-180deg);
+        background: no-repeat center/100% url(images/burger.png);
     }
 }
 
@@ -66,12 +82,11 @@ body {
 }
 
 .menu-active .menu-btn {
-    animation: rotation 1.3s;
-    z-index: 10;
+    animation: menu-btn-rotation 1.3s forwards;
 }
 
 .menu-not-active .menu-btn {
-    animation: back-rotation 1.3s;
+    animation: menu-btn-back-rotation 1.3s forwards;
 }
 
 #glavnoe-menu1 {
