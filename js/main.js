@@ -10,7 +10,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#sport1').removeClass('content-not-active');
         $('#sport1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -19,7 +19,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#horoda1').removeClass('content-not-active');
         $('#horoda1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -28,7 +28,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#school1').removeClass('content-not-active');
         $('#school1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -37,7 +37,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#ludi1').removeClass('content-not-active');
         $('#ludi1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -46,7 +46,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#traditii1').removeClass('content-not-active');
         $('#traditii1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -55,7 +55,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#fakt1').removeClass('content-not-active');
         $('#fakt1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -64,7 +64,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#sport1').removeClass('content-not-active');
         $('#sport1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -73,7 +73,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#horoda1').removeClass('content-not-active');
         $('#horoda1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -82,7 +82,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#school1').removeClass('content-not-active');
         $('#school1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -91,7 +91,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#ludi1').removeClass('content-not-active');
         $('#ludi1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -100,7 +100,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#traditii1').removeClass('content-not-active');
         $('#traditii1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -109,7 +109,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#fakt1').removeClass('content-not-active');
         $('#fakt1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 
@@ -118,7 +118,7 @@ $(function() {
         $('.content-active').removeClass('content-active');
         $('#glavnoe-menu1').removeClass('content-not-active');
         $('#glavnoe-menu1').addClass('content-active');
-        $('.menu-active').addClass('menu');
+        $('.menu-active').addClass('menu-not-active');
         $('.menu-active').removeClass('menu-active');
     });
 })
