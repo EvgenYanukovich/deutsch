@@ -108,7 +108,7 @@ body {
     align-items: flex-start;
 }
 
-.ru-content, .de-content {
+.page-content {
     font-size: 20px;
     border-radius: 20px;
     border-style: solid;
@@ -117,6 +117,15 @@ body {
     padding: 15px;
     width: 43%;
     margin: 5px;
+}
+
+.lang-selector {
+    display: none;
+}
+
+.lang-selector a {
+    font-size: 20px;
+    color: red;
 }
 
 .content-active {
@@ -230,7 +239,7 @@ h2 {
     }
 
     .title-text {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .menu-btn {
@@ -244,7 +253,11 @@ h2 {
         align-items: center;
     }
 
-    .ru-content, .de-content {
+    .page-content {
         width: 90%;
+    }
+
+    .lang-selector {
+        display: block;
     }
 }
