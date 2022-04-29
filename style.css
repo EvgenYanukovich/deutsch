@@ -16,7 +16,7 @@ body {
     left: 0;
     top: 0;
     width: 30%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@ body {
 }
 
 #glavnoe-menu1.content-not-active {
-    visibility: hidden;
+    display: none;
 }
 
 .news {
@@ -101,40 +101,30 @@ body {
     border-radius: 15px;
 }
 
-.ru-content {
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ru-content, .de-content {
     font-size: 20px;
     border-radius: 20px;
     border-style: solid;
     border: 1px;
     background: white;
     padding: 15px;
-    position: absolute;
-    left: 3.3%;
-    top: 27.95%;
     width: 43%;
-    min-width: 250px;
+    margin: 5px;
 }
 
 .content-active {
-    display: unset;
+    
 }
 
 .content-not-active {
     display: none;
-}
-
-.de-content {
-    font-size: 20px;
-    border-radius: 20px;
-    border-style: solid;
-    border: 1px;
-    background: white;
-    padding: 15px;
-    position: absolute;
-    right: 3.3%;
-    top: 27.95%;
-    width: 43%;
-    min-width: 250px;
 }
 
 .text-center {
@@ -239,5 +229,14 @@ h2 {
         width: 35px;
         height: 35px;
         right: -45px;
+    }
+
+    .page {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ru-content, .de-content {
+        width: 90%;
     }
 }
