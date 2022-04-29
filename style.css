@@ -106,7 +106,7 @@ body {
  
 .news-text {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .news-photo {
@@ -209,7 +209,7 @@ h2 {
     }
 
     .news-text {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .menu-btn {
