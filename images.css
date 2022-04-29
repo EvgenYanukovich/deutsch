@@ -3,11 +3,11 @@
 }
 
 .menu-btn {
-	background: no-repeat center/100% url(images/burger.jpg);
+	background: no-repeat center/100% url(images/burger.png);
 }
 
 .menu-active .menu-btn {
-    background: no-repeat center/100% url(images/cross.jpg);
+    background: no-repeat center/100% url(images/cross.png);
 }
 
 #sport-news .news-photo {
